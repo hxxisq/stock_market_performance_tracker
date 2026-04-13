@@ -1,4 +1,4 @@
-# # Stock Market Performance Tracker
+# Stock Market Performance Tracker
 
 **An end-to-end ETL pipeline analyzing 5 years of financial data with advanced SQL and Python visualization**
 
