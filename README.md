@@ -8,7 +8,7 @@
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project demonstrates a complete **data engineering workflow**: collecting raw financial data from APIs, transforming it into a normalized relational database, and deriving insights through SQL analysis and visualization.
 
@@ -23,7 +23,7 @@ This project demonstrates a complete **data engineering workflow**: collecting r
 
 ---
 
-## 🏢 Stocks Analyzed
+## Stocks Analyzed
 
 | Ticker | Company | Avg Price (2025) |
 |--------|---------|------------------|
@@ -35,7 +35,7 @@ This project demonstrates a complete **data engineering workflow**: collecting r
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -48,7 +48,7 @@ This project demonstrates a complete **data engineering workflow**: collecting r
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 stock-market-tracker/
@@ -61,7 +61,7 @@ stock-market-tracker/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -87,7 +87,7 @@ jupyter notebook Stock_Market_Performance_Tracker.ipynb
 
 ---
 
-## 📊 Visualizations Generated
+## Visualizations Generated
 
 ### 1. Six-Month Price Trends
 Line chart showing all 5 stocks over the last 6 months
@@ -106,7 +106,7 @@ Bar chart comparing average closing prices across all stocks
 
 ---
 
-## 🔍 Key Queries
+## Key Queries
 
 ### Average Price by Stock (2025)
 ```sql
@@ -138,7 +138,7 @@ ORDER BY ph.date
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 1. **Price Correlation:** JPM and Visa (V) stock prices move together
 2. **Volatility:** Goldman Sachs (GS) exhibits highest price volatility
@@ -147,7 +147,7 @@ ORDER BY ph.date
 
 ---
 
-## 🎯 Architecture
+## Architecture
 
 ```
 Raw Data (yfinance)
@@ -175,7 +175,7 @@ Raw Data (yfinance)
 
 ---
 
-## 🔧 Extending This Project
+## Extending This Project
 
 ### Short-term
 - Add more stocks or sectors
@@ -195,7 +195,7 @@ Raw Data (yfinance)
 
 ---
 
-## 🚨 Challenges & Solutions
+## Challenges & Solutions
 
 | Challenge | Solution |
 |-----------|----------|
@@ -206,7 +206,7 @@ Raw Data (yfinance)
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 yfinance==0.2.32      # Financial data API
@@ -220,7 +220,7 @@ See `requirements.txt` for exact versions.
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 By working through this project, I understood:
 - How real-world financial data flows through an ETL pipeline
@@ -231,7 +231,7 @@ By working through this project, I understood:
 
 ---
 
-## 📝 Notes for Interviewers
+## Notes for Interviewers
 
 This project demonstrates:
 1. **Full-stack data engineering:** Data → Database → Analysis → Visualization
@@ -241,7 +241,7 @@ This project demonstrates:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found a bug or have an improvement? Feel free to:
 1. Fork the repository
@@ -250,7 +250,7 @@ Found a bug or have an improvement? Feel free to:
 
 ---
 
-## 👤 Author
+## Author
 
 **Benjamin Shado**  
 Data Analyst | Data Scientist 
@@ -258,7 +258,7 @@ Data Analyst | Data Scientist
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - [yfinance Documentation](https://github.com/ranaroussi/yfinance)
 - [SQLite Window Functions](https://www.sqlite.org/windowfunctions.html)
@@ -267,4 +267,4 @@ Data Analyst | Data Scientist
 
 ---
 
-**Last Updated:** April 13, 2026
+**Last Updated:** April 14, 2026
